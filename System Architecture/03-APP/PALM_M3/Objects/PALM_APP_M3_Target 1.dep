@@ -1,0 +1,180 @@
+Dependencies for Project 'PALM_APP_M3', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6150000::V6.15::ARMCLANG
+F (.\ADC_program.c)(0x60D66EBD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/adc_program.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (ADC_interface.h)(0x60219115)
+I (ADC_private.h)(0x60D62436)
+I (ADC_config.h)(0x60D6700F)
+F (.\DC_motor.c)(0x610F06A5)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/dc_motor.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (RCC_interface.h)(0x60C246EB)
+I (GPIO_interface.h)(0x60C2472B)
+I (PWM_interface.h)(0x60E87A38)
+I (DC_motor.h)(0x610F0AC6)
+F (.\GPIO_program.c)(0x60C292CA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/gpio_program.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (GPIO_interface.h)(0x60C2472B)
+I (GPIO_private.h)(0x60C1F4B5)
+I (GPIO_config.h)(0x5FED10E9)
+F (.\NVIC_program.c)(0x60E955E2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/nvic_program.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (NVIC_interface.h)(0x6123D5FA)
+I (NVIC_private.h)(0x60E107CA)
+F (.\PID_program.c)(0x60D5F31B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/pid_program.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (POT_interface.h)(0x60E87924)
+I (GPIO_interface.h)(0x60C2472B)
+I (ADC_interface.h)(0x60219115)
+I (DC_motor.h)(0x610F0AC6)
+I (PWM_interface.h)(0x60E87A38)
+I (PID_private.h)(0x60D651B6)
+I (PID_config.h)(0x60D5E57A)
+I (PID_interface.h)(0x60D5F31B)
+F (.\POT_program.c)(0x60D651E0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/pot_program.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (RCC_interface.h)(0x60C246EB)
+I (GPIO_interface.h)(0x60C2472B)
+I (ADC_interface.h)(0x60219115)
+I (POT_interface.h)(0x60E87924)
+F (.\PWM_program.c)(0x60F8AAEF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/pwm_program.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (PWM_interface.h)(0x60E87A38)
+I (PWM_private.h)(0x60C23F8A)
+I (PWM_config.h)(0x60C2B110)
+I (GPIO_interface.h)(0x60C2472B)
+F (.\RCC_program.c)(0x60C19641)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/rcc_program.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (RCC_private.h)(0x60C240EE)
+I (RCC_config.h)(0x60CA0781)
+I (RCC_interface.h)(0x60C246EB)
+F (.\Servo_program.c)(0x60E8555C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/servo_program.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (RCC_interface.h)(0x60C246EB)
+I (GPIO_interface.h)(0x60C2472B)
+I (PWM_interface.h)(0x60E87A38)
+I (Servo_interface.h)(0x60E87BA0)
+I (Servo_config.h)(0x60E85269)
+F (.\STK_Program.c)(0x613FECAB)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/stk_program.o -MD)
+I (DataTypes_and_BitMath.h)(0x5FDC8E7A)
+I (STK_interface.h)(0x613FED39)
+I (STD_TYPES.h)(0x606EF089)
+I (STK_Configuration.h)(0x6147CBA4)
+I (STK_Private.h)(0x613FED28)
+I (BIT_MATH.h)(0x5F44115E)
+F (.\main.c)(0x614B6270)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/main.o -MD)
+I (RCC_interface.h)(0x60C246EB)
+I (STD_TYPES.h)(0x606EF089)
+I (STK_interface.h)(0x613FED39)
+I (DataTypes_and_BitMath.h)(0x5FDC8E7A)
+I (AFIO_interface.h)(0x6106B165)
+I (DC_motor.h)(0x610F0AC6)
+I (PWM_interface.h)(0x60E87A38)
+I (POT_interface.h)(0x60E87924)
+I (GPIO_interface.h)(0x60C2472B)
+I (ADC_interface.h)(0x60219115)
+I (Servo_interface.h)(0x60E87BA0)
+I (PID_interface.h)(0x60D5F31B)
+I (PID_private.h)(0x60D651B6)
+I (FSR_Interface.h)(0x60E89D4E)
+I (HIMU_interface.h)(0x613ECB06)
+I (F_MLX90614.h)(0x60EE540B)
+I (F_SMBUS.h)(0x60EE49AD)
+I (USART_interface.h)(0x61087926)
+I (NVIC_interface.h)(0x6123D5FA)
+I (APP_Palm_Functions.h)(0x614B5161)
+F (.\APP_Palm_Functions.h)(0x614B5161)()
+F (.\FSR_Program.c)(0x60EDD44B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/fsr_program.o -MD)
+I (DataTypes_and_BitMath.h)(0x5FDC8E7A)
+I (FSR_Interface.h)(0x60E89D4E)
+I (GPIO_interface.h)(0x60C2472B)
+I (STD_TYPES.h)(0x606EF089)
+I (ADC_interface.h)(0x60219115)
+I (FSR_Configuration.h)(0x60EDD4F2)
+I (FSR_Private.h)(0x60EDD44B)
+I (RCC_interface.h)(0x60C246EB)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x5F372500)
+F (.\F_MLX96014.c)(0x60EE547F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/f_mlx96014.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (F_SMBUS.h)(0x60EE49AD)
+I (GPIO_interface.h)(0x60C2472B)
+I (F_MLX90614.h)(0x60EE540B)
+I (RCC_interface.h)(0x60C246EB)
+I (DMA_interface.h)(0x6103397E)
+F (.\F_SMBUS.c)(0x60EE3AC6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/f_smbus.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (F_SMBUS.h)(0x60EE49AD)
+I (GPIO_interface.h)(0x60C2472B)
+I (STK_interface.h)(0x613FED39)
+I (DataTypes_and_BitMath.h)(0x5FDC8E7A)
+I (PWM_interface.h)(0x60E87A38)
+F (.\DMA_program.c)(0x6103397E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/dma_program.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (RCC_interface.h)(0x60C246EB)
+I (DMA_private.h)(0x60E95866)
+I (DMA_config.h)(0x60EDE3D4)
+I (DMA_interface.h)(0x6103397E)
+F (.\USART_program.c)(0x6147D013)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/usart_program.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (USART_interface.h)(0x61087926)
+I (NVIC_interface.h)(0x6123D5FA)
+I (USART_private.h)(0x60E955BC)
+I (USART_config.h)(0x6149EDD4)
+I (DMA_interface.h)(0x6103397E)
+I (GPIO_interface.h)(0x60C2472B)
+I (RCC_interface.h)(0x60C246EB)
+F (.\AFIO_program.c)(0x610F1664)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/afio_program.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (AFIO_interface.h)(0x6106B165)
+I (AFIO_private.h)(0x60E953D8)
+F (.\HIMU_program.c)(0x614134C1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/himu_program.o -MD)
+I (BIT_MATH.h)(0x5F44115E)
+I (STD_TYPES.h)(0x606EF089)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x5F372500)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5F37250E)
+I (RCC_interface.h)(0x60C246EB)
+I (GPIO_interface.h)(0x60C2472B)
+I (DMA_interface.h)(0x6103397E)
+I (MI2C_interface.h)(0x6116D29A)
+I (MI2C_private.h)(0x609F7EE4)
+I (MI2C_config.h)(0x60F11F9C)
+I (STK_interface.h)(0x613FED39)
+I (DataTypes_and_BitMath.h)(0x5FDC8E7A)
+I (HIMU_private.h)(0x613EC6FC)
+I (HIMU_config.h)(0x613EC7E6)
+I (HIMU_interface.h)(0x613ECB06)
+F (.\MI2C_program.c)(0x61205E2C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/mi2c_program.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (MI2C_interface.h)(0x6116D29A)
+I (MI2C_private.h)(0x609F7EE4)
+I (MI2C_config.h)(0x60F11F9C)
+I (STK_interface.h)(0x613FED39)
+I (DataTypes_and_BitMath.h)(0x5FDC8E7A)
+I (RCC_interface.h)(0x60C246EB)
+I (GPIO_interface.h)(0x60C2472B)
+I (DMA_interface.h)(0x6103397E)
+F (RTE\Device\STM32F103C8\RTE_Device.h)(0x59283406)()
+F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x58258CCC)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-gdwarf-3 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 533" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F10X_MD SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f10x_md.o)
+F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x58258CCC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/system_stm32f10x.o -MD)
+I (C:\Users\hamdy\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (RTE\_Target_1\RTE_Components.h)(0x60E869C2)
+I (C:\Users\hamdy\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F372508)
+I (C:\Users\hamdy\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Users\hamdy\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Users\hamdy\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D43D42)
+I (C:\Users\hamdy\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)

@@ -1,0 +1,221 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.33.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: hamdy osama, ain shams university, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.33.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.15
+Assembler:       Armasm.exe V6.15
+Linker/Locator:  ArmLink.exe V6.15
+Library Manager: ArmAr.exe V6.15
+Hex Converter:   FromElf.exe V6.15
+CPU DLL:         SARMCM3.DLL V5.33.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.8.0
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+C:\Users\hamdy\Desktop\ASU\4th Mechatronics\Miscs\Bionic Arm Grad.Project 2021\03-LLC (Low Level Control)\Driver Testing\IMU_TEST\imu_test.uvprojx
+Project File Date:  09/13/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.15', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+compiling with standard files main.c...
+HIMU_program.c(24): warning: In file included from...
+./HIMU_private.h(114): warning: 'DISABLED' macro redefined [-Wmacro-redefined]
+#define       DISABLED                         0x0
+              ^
+./DMA_interface.h(54): note: previous definition is here
+#define   DISABLED           0
+          ^
+HIMU_program.c(24): warning: In file included from...
+./HIMU_private.h(115): warning: 'ENABLED' macro redefined [-Wmacro-redefined]
+#define       ENABLED                          0x1
+              ^
+./DMA_interface.h(55): note: previous definition is here
+#define   ENABLED            1
+          ^
+HIMU_program.c(120): warning: passing 'volatile u32 *' (aka 'volatile unsigned long *') to parameter of type 'u32 *' (aka 'unsigned long *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   DMA_VoidSetAddress(1, CHANNEL7 , &(I2C_1->DR) , &CONFIRM , 1 );
+                                    ^~~~~~~~~~~~
+./DMA_interface.h(15): note: passing argument to parameter 'Copy_pu32PeripheralAddress' here
+void DMA_VoidSetAddress(u8 Copy_u8Dma ,u8 Copy_u8CHANNEL , u32 * Copy_pu32PeripheralAddress , u32 * Copy_pu32MemoryAddress , u16 Copy_u16BlockLength );
+                                                                 ^
+HIMU_program.c(120): warning: incompatible pointer types passing 'volatile u8 (*)[1]' to parameter of type 'u32 *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+   DMA_VoidSetAddress(1, CHANNEL7 , &(I2C_1->DR) , &CONFIRM , 1 );
+                                                   ^~~~~~~~
+./DMA_interface.h(15): note: passing argument to parameter 'Copy_pu32MemoryAddress' here
+void DMA_VoidSetAddress(u8 Copy_u8Dma ,u8 Copy_u8CHANNEL , u32 * Copy_pu32PeripheralAddress , u32 * Copy_pu32MemoryAddress , u16 Copy_u16BlockLength );
+                                                                                                    ^
+HIMU_program.c(142): warning: expression result unused [-Wunused-value]
+MI2C_voidI2c1_MasterRecieverFinishing;
+^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+HIMU_program.c(150): warning: passing 'volatile u32 *' (aka 'volatile unsigned long *') to parameter of type 'u32 *' (aka 'unsigned long *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    DMA_VoidSetAddress( 1, CHANNEL6 , &(I2C_1->DR) , Copy_u8Array , 2 );
+                                      ^~~~~~~~~~~~
+./DMA_interface.h(15): note: passing argument to parameter 'Copy_pu32PeripheralAddress' here
+void DMA_VoidSetAddress(u8 Copy_u8Dma ,u8 Copy_u8CHANNEL , u32 * Copy_pu32PeripheralAddress , u32 * Copy_pu32MemoryAddress , u16 Copy_u16BlockLength );
+                                                                 ^
+HIMU_program.c(150): warning: incompatible pointer types passing 'u8 *' (aka 'unsigned char *') to parameter of type 'u32 *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+    DMA_VoidSetAddress( 1, CHANNEL6 , &(I2C_1->DR) , Copy_u8Array , 2 );
+                                                     ^~~~~~~~~~~~
+./DMA_interface.h(15): note: passing argument to parameter 'Copy_pu32MemoryAddress' here
+void DMA_VoidSetAddress(u8 Copy_u8Dma ,u8 Copy_u8CHANNEL , u32 * Copy_pu32PeripheralAddress , u32 * Copy_pu32MemoryAddress , u16 Copy_u16BlockLength );
+                                                                                                    ^
+HIMU_program.c(161): warning: implicit declaration of function 'MI2C_voidReInit' is invalid in C99 [-Wimplicit-function-declaration]
+        MI2C_voidReInit();
+        ^
+HIMU_program.c(165): warning: passing 'volatile u8 [2]' to parameter of type 'u8 *' (aka 'unsigned char *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    HIMU_VoidConfig( POWER_MANG_1 );
+                     ^~~~~~~~~~~~
+HIMU_program.c(148): note: passing argument to parameter 'Copy_u8Array' here
+void HIMU_VoidConfig(u8 * Copy_u8Array ){
+                          ^
+HIMU_program.c(168): warning: passing 'volatile u8 [2]' to parameter of type 'u8 *' (aka 'unsigned char *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    HIMU_VoidConfig( SAMPLE_RATE );
+                     ^~~~~~~~~~~
+HIMU_program.c(148): note: passing argument to parameter 'Copy_u8Array' here
+void HIMU_VoidConfig(u8 * Copy_u8Array ){
+                          ^
+HIMU_program.c(171): warning: passing 'volatile u8 [2]' to parameter of type 'u8 *' (aka 'unsigned char *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    HIMU_VoidConfig( ACCELEROMETER_CONFIG );
+                     ^~~~~~~~~~~~~~~~~~~~
+HIMU_program.c(148): note: passing argument to parameter 'Copy_u8Array' here
+void HIMU_VoidConfig(u8 * Copy_u8Array ){
+                          ^
+HIMU_program.c(174): warning: passing 'volatile u8 [2]' to parameter of type 'u8 *' (aka 'unsigned char *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    HIMU_VoidConfig( GYROSCOPE_CONFIG_1 );
+                     ^~~~~~~~~~~~~~~~~~
+HIMU_program.c(148): note: passing argument to parameter 'Copy_u8Array' here
+void HIMU_VoidConfig(u8 * Copy_u8Array ){
+                          ^
+HIMU_program.c(224): warning: passing 'volatile u32 *' (aka 'volatile unsigned long *') to parameter of type 'u32 *' (aka 'unsigned long *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        DMA_VoidSetAddress(1, CHANNEL7 , &(I2C_1->DR) , G_X , 2 );
+                                         ^~~~~~~~~~~~
+./DMA_interface.h(15): note: passing argument to parameter 'Copy_pu32PeripheralAddress' here
+void DMA_VoidSetAddress(u8 Copy_u8Dma ,u8 Copy_u8CHANNEL , u32 * Copy_pu32PeripheralAddress , u32 * Copy_pu32MemoryAddress , u16 Copy_u16BlockLength );
+                                                                 ^
+HIMU_program.c(224): warning: incompatible pointer types passing 'u8 [2]' to parameter of type 'u32 *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+        DMA_VoidSetAddress(1, CHANNEL7 , &(I2C_1->DR) , G_X , 2 );
+                                                        ^~~
+./DMA_interface.h(15): note: passing argument to parameter 'Copy_pu32MemoryAddress' here
+void DMA_VoidSetAddress(u8 Copy_u8Dma ,u8 Copy_u8CHANNEL , u32 * Copy_pu32PeripheralAddress , u32 * Copy_pu32MemoryAddress , u16 Copy_u16BlockLength );
+                                                                                                    ^
+HIMU_program.c(233): warning: passing 'volatile u32 *' (aka 'volatile unsigned long *') to parameter of type 'u32 *' (aka 'unsigned long *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    DMA_VoidSetAddress(1, CHANNEL7 , &(I2C_1->DR) , G_Y , 2 );
+                                     ^~~~~~~~~~~~
+./DMA_interface.h(15): note: passing argument to parameter 'Copy_pu32PeripheralAddress' here
+void DMA_VoidSetAddress(u8 Copy_u8Dma ,u8 Copy_u8CHANNEL , u32 * Copy_pu32PeripheralAddress , u32 * Copy_pu32MemoryAddress , u16 Copy_u16BlockLength );
+                                                                 ^
+HIMU_program.c(233): warning: incompatible pointer types passing 'u8 [2]' to parameter of type 'u32 *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+    DMA_VoidSetAddress(1, CHANNEL7 , &(I2C_1->DR) , G_Y , 2 );
+                                                    ^~~
+./DMA_interface.h(15): note: passing argument to parameter 'Copy_pu32MemoryAddress' here
+void DMA_VoidSetAddress(u8 Copy_u8Dma ,u8 Copy_u8CHANNEL , u32 * Copy_pu32PeripheralAddress , u32 * Copy_pu32MemoryAddress , u16 Copy_u16BlockLength );
+                                                                                                    ^
+HIMU_program.c(242): warning: passing 'volatile u32 *' (aka 'volatile unsigned long *') to parameter of type 'u32 *' (aka 'unsigned long *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    DMA_VoidSetAddress(1, CHANNEL7 , &(I2C_1->DR) , G_Z , 2 );
+                                     ^~~~~~~~~~~~
+./DMA_interface.h(15): note: passing argument to parameter 'Copy_pu32PeripheralAddress' here
+void DMA_VoidSetAddress(u8 Copy_u8Dma ,u8 Copy_u8CHANNEL , u32 * Copy_pu32PeripheralAddress , u32 * Copy_pu32MemoryAddress , u16 Copy_u16BlockLength );
+                                                                 ^
+HIMU_program.c(242): warning: incompatible pointer types passing 'u8 [2]' to parameter of type 'u32 *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+    DMA_VoidSetAddress(1, CHANNEL7 , &(I2C_1->DR) , G_Z , 2 );
+                                                    ^~~
+./DMA_interface.h(15): note: passing argument to parameter 'Copy_pu32MemoryAddress' here
+void DMA_VoidSetAddress(u8 Copy_u8Dma ,u8 Copy_u8CHANNEL , u32 * Copy_pu32PeripheralAddress , u32 * Copy_pu32MemoryAddress , u16 Copy_u16BlockLength );
+                                                                                                    ^
+HIMU_program.c(252): warning: passing 'volatile u32 *' (aka 'volatile unsigned long *') to parameter of type 'u32 *' (aka 'unsigned long *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    DMA_VoidSetAddress(1, CHANNEL7 , &(I2C_1->DR) , T , 2 );
+                                     ^~~~~~~~~~~~
+./DMA_interface.h(15): note: passing argument to parameter 'Copy_pu32PeripheralAddress' here
+void DMA_VoidSetAddress(u8 Copy_u8Dma ,u8 Copy_u8CHANNEL , u32 * Copy_pu32PeripheralAddress , u32 * Copy_pu32MemoryAddress , u16 Copy_u16BlockLength );
+                                                                 ^
+HIMU_program.c(252): warning: incompatible pointer types passing 'u8 [2]' to parameter of type 'u32 *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+    DMA_VoidSetAddress(1, CHANNEL7 , &(I2C_1->DR) , T , 2 );
+                                                    ^
+./DMA_interface.h(15): note: passing argument to parameter 'Copy_pu32MemoryAddress' here
+void DMA_VoidSetAddress(u8 Copy_u8Dma ,u8 Copy_u8CHANNEL , u32 * Copy_pu32PeripheralAddress , u32 * Copy_pu32MemoryAddress , u16 Copy_u16BlockLength );
+                                                                                                    ^
+HIMU_program.c(261): warning: passing 'volatile u32 *' (aka 'volatile unsigned long *') to parameter of type 'u32 *' (aka 'unsigned long *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+          DMA_VoidSetAddress(1, CHANNEL7 , &(I2C_1->DR) , A_X , 2 );
+                                           ^~~~~~~~~~~~
+./DMA_interface.h(15): note: passing argument to parameter 'Copy_pu32PeripheralAddress' here
+void DMA_VoidSetAddress(u8 Copy_u8Dma ,u8 Copy_u8CHANNEL , u32 * Copy_pu32PeripheralAddress , u32 * Copy_pu32MemoryAddress , u16 Copy_u16BlockLength );
+                                                                 ^
+HIMU_program.c(261): warning: incompatible pointer types passing 'u8 [2]' to parameter of type 'u32 *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+          DMA_VoidSetAddress(1, CHANNEL7 , &(I2C_1->DR) , A_X , 2 );
+                                                          ^~~
+./DMA_interface.h(15): note: passing argument to parameter 'Copy_pu32MemoryAddress' here
+void DMA_VoidSetAddress(u8 Copy_u8Dma ,u8 Copy_u8CHANNEL , u32 * Copy_pu32PeripheralAddress , u32 * Copy_pu32MemoryAddress , u16 Copy_u16BlockLength );
+                                                                                                    ^
+HIMU_program.c(270): warning: passing 'volatile u32 *' (aka 'volatile unsigned long *') to parameter of type 'u32 *' (aka 'unsigned long *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    DMA_VoidSetAddress(1, CHANNEL7 , &(I2C_1->DR) , A_Y , 2 );
+                                     ^~~~~~~~~~~~
+./DMA_interface.h(15): note: passing argument to parameter 'Copy_pu32PeripheralAddress' here
+void DMA_VoidSetAddress(u8 Copy_u8Dma ,u8 Copy_u8CHANNEL , u32 * Copy_pu32PeripheralAddress , u32 * Copy_pu32MemoryAddress , u16 Copy_u16BlockLength );
+                                                                 ^
+HIMU_program.c(270): warning: incompatible pointer types passing 'u8 [2]' to parameter of type 'u32 *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+    DMA_VoidSetAddress(1, CHANNEL7 , &(I2C_1->DR) , A_Y , 2 );
+                                                    ^~~
+./DMA_interface.h(15): note: passing argument to parameter 'Copy_pu32MemoryAddress' here
+void DMA_VoidSetAddress(u8 Copy_u8Dma ,u8 Copy_u8CHANNEL , u32 * Copy_pu32PeripheralAddress , u32 * Copy_pu32MemoryAddress , u16 Copy_u16BlockLength );
+                                                                                                    ^
+HIMU_program.c(279): warning: passing 'volatile u32 *' (aka 'volatile unsigned long *') to parameter of type 'u32 *' (aka 'unsigned long *') discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    DMA_VoidSetAddress(1, CHANNEL7 , &(I2C_1->DR) , A_Z , 2 );
+                                     ^~~~~~~~~~~~
+./DMA_interface.h(15): note: passing argument to parameter 'Copy_pu32PeripheralAddress' here
+void DMA_VoidSetAddress(u8 Copy_u8Dma ,u8 Copy_u8CHANNEL , u32 * Copy_pu32PeripheralAddress , u32 * Copy_pu32MemoryAddress , u16 Copy_u16BlockLength );
+                                                                 ^
+HIMU_program.c(279): warning: incompatible pointer types passing 'u8 [2]' to parameter of type 'u32 *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+    DMA_VoidSetAddress(1, CHANNEL7 , &(I2C_1->DR) , A_Z , 2 );
+                                                    ^~~
+./DMA_interface.h(15): note: passing argument to parameter 'Copy_pu32MemoryAddress' here
+void DMA_VoidSetAddress(u8 Copy_u8Dma ,u8 Copy_u8CHANNEL , u32 * Copy_pu32PeripheralAddress , u32 * Copy_pu32MemoryAddress , u16 Copy_u16BlockLength );
+                                                                                                    ^
+26 warnings generated.
+compiling HIMU_program.c...
+linking...
+Program Size: Code=15724 RO-data=428 RW-data=156 ZI-data=1776  
+".\Objects\imu_test.axf" - 0 Error(s), 26 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\STM32F103C8
+  .\RTE\_Target_1
+  C:\Users\hamdy\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  C:\Users\hamdy\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
+      Include file:  RTE_Driver\Config\RTE_Device.h
+      Source file:   Device\Source\system_stm32f10x.c
+      Source file:   Device\Source\ARM\startup_stm32f10x_md.s
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

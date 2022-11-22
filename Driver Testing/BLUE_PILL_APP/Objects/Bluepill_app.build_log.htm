@@ -1,0 +1,134 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.33.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: hamdy osama, ain shams university, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.33.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.15
+Assembler:       Armasm.exe V6.15
+Linker/Locator:  ArmLink.exe V6.15
+Library Manager: ArmAr.exe V6.15
+Hex Converter:   FromElf.exe V6.15
+CPU DLL:         SARMCM3.DLL V5.33.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.8.0
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+C:\Users\hamdy\Desktop\4th Mechatronics\Miscs\Bionic Arm Grad.Project 2021\03-LLC (Low Level Control)\Driver Testing\BLUE_PILL_APP\Bluepill_app.uvprojx
+Project File Date:  07/30/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.15', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+SMBUS_program.c(520): warning: non-void function does not return a value in all control paths [-Wreturn-type]
+ }
+ ^
+1 warning generated.
+compiling SMBUS_program.c...
+USART_program.c(784): warning: while loop has empty body [-Wempty-body]
+while(((USART2 -> SR) & (1<<5))==0);
+                                   ^
+USART_program.c(784): note: put the semicolon on a separate line to silence this warning
+USART_program.c(877): warning: incompatible integer to pointer conversion passing 'u32' (aka 'unsigned long') to parameter of type 'u32 *' (aka 'unsigned long *') [-Wint-conversion]
+        DMA_VoidSetAddress(1 ,CHANNEL6 , (u32) &USART2->DR , (u32)&recieved , 64 );
+                                         ^~~~~~~~~~~~~~~~~
+./DMA_interface.h(15): note: passing argument to parameter 'Copy_pu32PeripheralAddress' here
+void DMA_VoidSetAddress(u8 Copy_u8Dma ,u8 Copy_u8CHANNEL , u32 * Copy_pu32PeripheralAddress , u32 * Copy_pu32MemoryAddress , u16 Copy_u16BlockLength );
+                                                                 ^
+USART_program.c(877): warning: incompatible integer to pointer conversion passing 'u32' (aka 'unsigned long') to parameter of type 'u32 *' (aka 'unsigned long *') [-Wint-conversion]
+        DMA_VoidSetAddress(1 ,CHANNEL6 , (u32) &USART2->DR , (u32)&recieved , 64 );
+                                                             ^~~~~~~~~~~~~~
+./DMA_interface.h(15): note: passing argument to parameter 'Copy_pu32MemoryAddress' here
+void DMA_VoidSetAddress(u8 Copy_u8Dma ,u8 Copy_u8CHANNEL , u32 * Copy_pu32PeripheralAddress , u32 * Copy_pu32MemoryAddress , u16 Copy_u16BlockLength );
+                                                                                                    ^
+3 warnings generated.
+compiling USART_program.c...
+compiling DC_motor.c...
+compiling ADC_program.c...
+compiling PID_program.c...
+compiling main.c...
+compiling POT_program.c...
+compiling Servo_program.c...
+RCC_program.c(10): warning: In file included from...
+./RCC_config.h(25): warning: '/*' within block comment [-Wcomment]
+/* prescalers /*
+              ^
+1 warning generated.
+compiling RCC_program.c...
+MLX90614.c(20): warning: incompatible pointer types passing 'u16 *' (aka 'unsigned short *') to parameter of type 'u8 *' (aka 'unsigned char *') [-Wincompatible-pointer-types]
+SMBUS_SEND_DATA(&ambient_or_object);   // command
+                ^~~~~~~~~~~~~~~~~~
+./SMBUS_interface.h(15): note: passing argument to parameter 'COMMAND' here
+void SMBUS_SEND_DATA(u8 *COMMAND);
+                         ^
+1 warning generated.
+compiling MLX90614.c...
+compiling STK_Program.c...
+compiling FSR_Program.c...
+compiling DMA_program.c...
+compiling PWM_program.c...
+ENCODER_program.c(14): warning: In file included from...
+./NVIC_interface.h(122): warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define   HDMI-CEC                   93    //HDMI-CEC global interrupt
+              ^
+./NVIC_interface.h(123): warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define   SPDIF-Rx                   94    //SPDIF-Rx global interrupt 
+               ^
+2 warnings generated.
+compiling ENCODER_program.c...
+NVIC_program.c(10): warning: In file included from...
+./NVIC_interface.h(122): warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define   HDMI-CEC                   93    //HDMI-CEC global interrupt
+              ^
+./NVIC_interface.h(123): warning: ISO C99 requires whitespace after the macro name [-Wc99-extensions]
+#define   SPDIF-Rx                   94    //SPDIF-Rx global interrupt 
+               ^
+2 warnings generated.
+compiling NVIC_program.c...
+compiling GPIO_program.c...
+compiling system_stm32f10x.c...
+linking...
+Program Size: Code=12508 RO-data=268 RW-data=60 ZI-data=1656  
+FromELF: creating hex file...
+".\Objects\Bluepill_app.axf" - 0 Error(s), 10 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\STM32F103C8
+  .\RTE\_Target_1
+  C:\Users\hamdy\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  C:\Users\hamdy\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\system_stm32f10x.c
+      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
+      Include file:  RTE_Driver\Config\RTE_Device.h
+      Source file:   Device\Source\ARM\startup_stm32f10x_md.s
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

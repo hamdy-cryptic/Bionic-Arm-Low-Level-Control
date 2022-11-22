@@ -1,0 +1,101 @@
+Dependencies for Project 'ELBOW_M3', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6150000::V6.15::ARMCLANG
+F (.\DC_motor.c)(0x610145D9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/dc_motor.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (RCC_interface.h)(0x60C246EB)
+I (GPIO_interface.h)(0x60C2472B)
+I (PWM_interface.h)(0x60E87A38)
+I (DC_motor.h)(0x60E879EA)
+F (.\DMA_program.c)(0x6103397E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/dma_program.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (RCC_interface.h)(0x60C246EB)
+I (DMA_private.h)(0x60E95866)
+I (DMA_config.h)(0x60EDE3D4)
+I (DMA_interface.h)(0x6103397E)
+F (.\ENCODER_program.c)(0x60F8A5C8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/encoder_program.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (RCC_interface.h)(0x60C246EB)
+I (NVIC_interface.h)(0x6149F0E4)
+I (GPIO_interface.h)(0x60C2472B)
+I (PWM_interface.h)(0x60E87A38)
+I (ENCODER_private.h)(0x60F89E2E)
+I (ENCODER_config.h)(0x60F88BC1)
+I (ENCODER_interface.h)(0x60F89E2E)
+F (.\GPIO_program.c)(0x60C292CA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/gpio_program.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (GPIO_interface.h)(0x60C2472B)
+I (GPIO_private.h)(0x60C1F4B5)
+I (GPIO_config.h)(0x5FED10E9)
+F (.\NVIC_program.c)(0x60E955E2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/nvic_program.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (NVIC_interface.h)(0x6149F0E4)
+I (NVIC_private.h)(0x60E107CA)
+F (.\PWM_program.c)(0x60F8AAEF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/pwm_program.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (PWM_interface.h)(0x60E87A38)
+I (PWM_private.h)(0x60C23F8A)
+I (PWM_config.h)(0x60C2B110)
+I (GPIO_interface.h)(0x60C2472B)
+F (.\RCC_program.c)(0x60C19641)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/rcc_program.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (RCC_private.h)(0x60C240EE)
+I (RCC_config.h)(0x60CA0781)
+I (RCC_interface.h)(0x60C246EB)
+F (.\Servo_program.c)(0x60E8555C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/servo_program.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (RCC_interface.h)(0x60C246EB)
+I (GPIO_interface.h)(0x60C2472B)
+I (PWM_interface.h)(0x60E87A38)
+I (Servo_interface.h)(0x60E87BA0)
+I (Servo_config.h)(0x60E85269)
+F (.\STK_Program.c)(0x613FECE0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/stk_program.o -MD)
+I (DataTypes_and_BitMath.h)(0x5FDC8E7A)
+I (STK_interface.h)(0x613FED50)
+I (STD_TYPES.h)(0x606EF089)
+I (STK_Configuration.h)(0x6148A2D9)
+I (STK_Private.h)(0x613FED47)
+I (BIT_MATH.h)(0x5F44115E)
+F (.\USART_program.c)(0x6149F08D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/usart_program.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (USART_interface.h)(0x61087926)
+I (NVIC_interface.h)(0x6149F0E4)
+I (USART_private.h)(0x60E955BC)
+I (USART_config.h)(0x6149F8D2)
+I (DMA_interface.h)(0x6103397E)
+I (GPIO_interface.h)(0x60C2472B)
+I (RCC_interface.h)(0x60C246EB)
+F (.\main.c)(0x6158D3AF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/main.o -MD)
+I (RCC_interface.h)(0x60C246EB)
+I (STD_TYPES.h)(0x606EF089)
+I (STK_interface.h)(0x613FED50)
+I (DataTypes_and_BitMath.h)(0x5FDC8E7A)
+I (DC_motor.h)(0x60E879EA)
+I (PWM_interface.h)(0x60E87A38)
+I (ENCODER_interface.h)(0x60F89E2E)
+I (ENCODER_private.h)(0x60F89E2E)
+I (Servo_interface.h)(0x60E87BA0)
+I (PID_interface.h)(0x60D5F31B)
+I (PID_private.h)(0x60D651B6)
+I (USART_interface.h)(0x61087926)
+I (NVIC_interface.h)(0x6149F0E4)
+I (APP_Elbow_Functions.h)(0x60F1F7B0)
+F (RTE\Device\STM32F103C8\RTE_Device.h)(0x59283406)()
+F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x58258CCC)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-gdwarf-3 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 533" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F10X_MD SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f10x_md.o)
+F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x58258CCC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/Device/STM32F103C8-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/system_stm32f10x.o -MD)
+I (C:\Users\hamdy\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (RTE\_Target_1\RTE_Components.h)(0x6103C66C)
+I (C:\Users\hamdy\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm3.h)(0x60D43D42)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F372508)
+I (C:\Users\hamdy\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (C:\Users\hamdy\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (C:\Users\hamdy\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D43D42)
+I (C:\Users\hamdy\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)

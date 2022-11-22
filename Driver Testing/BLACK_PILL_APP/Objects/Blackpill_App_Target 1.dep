@@ -1,0 +1,98 @@
+Dependencies for Project 'Blackpill_App', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6150000::V6.15::ARMCLANG
+F (.\ADC_program.c)(0x60219115)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F411xE -D_RTE_-o ./objects/adc_program.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (ADC_interface.h)(0x60219115)
+I (ADC_private.h)(0x5FDD864A)
+I (ADC_config.h)(0x609C900C)
+F (.\GPIO_program.c)(0x5FED10E9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F411xE -D_RTE_-o ./objects/gpio_program.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (GPIO_interface.h)(0x60219115)
+I (GPIO_private.h)(0x5FED10E9)
+I (GPIO_config.h)(0x5FED10E9)
+F (.\POT_program.c)(0x609C9069)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F411xE -D_RTE_-o ./objects/pot_program.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (RCC_interface.h)(0x603CF7AB)
+I (GPIO_interface.h)(0x60219115)
+I (ADC_interface.h)(0x60219115)
+I (POT_interface.h)(0x609C7FE7)
+F (.\RCC_program.c)(0x60777B3B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F411xE -D_RTE_-o ./objects/rcc_program.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (RCC_private.h)(0x60777697)
+I (RCC_config.h)(0x609C8E6B)
+I (RCC_interface.h)(0x603CF7AB)
+F (.\main.c)(0x60C17E12)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F411xE -D_RTE_-o ./objects/main.o -MD)
+I (RCC_interface.h)(0x603CF7AB)
+I (STD_TYPES.h)(0x606EF089)
+I (GPIO_interface.h)(0x60219115)
+I (STK_interface.h)(0x5FFEFF3E)
+I (DataTypes_and_BitMath.h)(0x5FDC8E7A)
+I (Servo_interface.h)(0x60C1558D)
+I (PWM_interface.h)(0x60C0DF5F)
+I (DC_motor.h)(0x60C0E320)
+F (.\FSR_Program.c)(0x609C9D67)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F411xE -D_RTE_-o ./objects/fsr_program.o -MD)
+I (DataTypes_and_BitMath.h)(0x5FDC8E7A)
+I (FSR_Interface.h)(0x609C9B04)
+I (GPIO_interface.h)(0x60219115)
+I (STD_TYPES.h)(0x606EF089)
+I (ADC_interface.h)(0x60219115)
+I (FSR_Configuration.h)(0x609C9B04)
+I (FSR_Private.h)(0x609C9B04)
+I (RCC_interface.h)(0x603CF7AB)
+F (.\PWM_program.c)(0x609DD394)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F411xE -D_RTE_-o ./objects/pwm_program.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (PWM_interface.h)(0x60C0DF5F)
+I (PWM_private.h)(0x603D0C9D)
+I (PWM_config.h)(0x60C154EB)
+I (GPIO_interface.h)(0x60219115)
+F (.\Servo_program.c)(0x60C1720F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F411xE -D_RTE_-o ./objects/servo_program.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (RCC_interface.h)(0x603CF7AB)
+I (GPIO_interface.h)(0x60219115)
+I (PWM_interface.h)(0x60C0DF5F)
+I (Servo_interface.h)(0x60C1558D)
+I (Servo_config.h)(0x60C15473)
+F (.\DC_motor.c)(0x60C178E6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F411xE -D_RTE_-o ./objects/dc_motor.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (RCC_interface.h)(0x603CF7AB)
+I (GPIO_interface.h)(0x60219115)
+I (PWM_interface.h)(0x60C0DF5F)
+I (DC_motor.h)(0x60C0E320)
+F (.\STK_Program.c)(0x60774F9E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F411xE -D_RTE_-o ./objects/stk_program.o -MD)
+I (DataTypes_and_BitMath.h)(0x5FDC8E7A)
+I (STK_interface.h)(0x5FFEFF3E)
+I (STK_Configuration.h)(0x60C165DD)
+I (STK_Private.h)(0x60764ED2)
+F (.\MX90614_main.c)(0x60C3BBC8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F411xE -D_RTE_-o ./objects/mx90614_main.o -MD)
+I (STD_TYPES.h)(0x606EF089)
+I (BIT_MATH.h)(0x5F44115E)
+I (Temp_program.c)(0x607393C2)
+I (RCC_interface.h)(0x603CF7AB)
+I (GPIO_interface.h)(0x60219115)
+I (MI2C_interface.h)(0x607381B7)
+I (MDMA_interface.h)(0x606EF09C)
+I (MI2C_private.h)(0x60737E58)
+I (TEMP_interface.h)(0x607393C2)
+I (TEMP_private.h)(0x60737FF5)
+I (TEMP_config.h)(0x606EF0B7)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5F372514)
+F (RTE\Device\STM32F411CEUx\startup_stm32f411xe.s)(0x5F6B2636)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-3 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 533" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F411xE SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f411xe.o)
+F (RTE\Device\STM32F411CEUx\system_stm32f4xx.c)(0x5F6B2636)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-covered-switch-default -Wno-unreachable-code-break -I./RTE/_Target_1-IC:/Users/hamdy/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/hamdy/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.15.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-D__UVISION_VERSION="533" -D_RTE_ -DSTM32F411xE -D_RTE_-o ./objects/system_stm32f4xx.o -MD)
+I (C:\Users\hamdy\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5F6B2636)
+I (C:\Users\hamdy\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f411xe.h)(0x5F6B2636)
+I (C:\Users\hamdy\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F372508)
+I (C:\Users\hamdy\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\hamdy\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\hamdy\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5EE17BA2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5F26DB98)
+I (C:\Users\hamdy\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F2582)
+I (C:\Users\hamdy\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5F6B2636)

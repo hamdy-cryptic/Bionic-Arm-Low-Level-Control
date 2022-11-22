@@ -1,0 +1,20 @@
+--cpu=Cortex-M4.fp.sp
+".\objects\main.o"
+".\objects\mdma_program.o"
+".\objects\adc_program.o"
+".\objects\gpio_program.o"
+".\objects\nvic_program.o"
+".\objects\pwm_program.o"
+".\objects\rcc_program.o"
+".\objects\usart_program.o"
+".\objects\stk_program.o"
+".\objects\mi2c_program.o"
+".\objects\encoder_program.o"
+".\objects\temp_program.o"
+".\objects\himu_program.o"
+".\objects\exti_program.o"
+".\objects\startup_stm32f446xx.o"
+".\objects\system_stm32f4xx.o"
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\System_Test.map" -o .\Objects\System_Test.axf

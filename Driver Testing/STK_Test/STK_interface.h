@@ -1,0 +1,26 @@
+/******************************************************/
+/* Author    : Salem Majed                            */
+/* Date      : 15 DEC 2020                            */
+/* Version   : 1                                      */
+/******************************************************/
+
+//#include "DataTypes_and_BitMath.h"
+
+#ifndef STK_INTERFACE_H
+#define STK_INTERFACE_H
+
+// The used Functions in the driver //
+
+void MSTK_void_SysTick_Initialize (void);            	/* The initializing function for the SysTick timer */
+void MSTK_void_SysTick_Delay (uint32 t);             	/* A delay function that holds the programs for t seconds */
+
+uint32 MSTK_uint32_SysTick_STimer (uint32 t, void (*interr_funct_name)(void));
+/* a single counter function that sends an interrupt after time t is elapsed, and it takes the interrupt function name to send it to the SysTick_Handler*/
+uint32 MSTK_uint32_SysTick_PTimer (uint32 t, void (*interr_funct_name)(void));
+/* a periodic counter function that sends an interrupt after time t is elapsed, and it takes the interrupt function name to send it to the SysTick_Handler*/
+
+uint32 MSTK_uint32_SysTick_ElapsedTime (void);       	/* Returns the elapsed time since the initialization of the SysTick timer */
+void MSTK_void_SysTick_TimePause (void);             	/* Pausing the Systick time until its enabled again by the resume function */
+void MSTK_void_SysTick_TimeResume (void);            	/* Resuming the SysTick timer by enabling the 0 bit */
+
+#endif

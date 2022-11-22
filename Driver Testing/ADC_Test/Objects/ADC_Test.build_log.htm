@@ -1,0 +1,171 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.32.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Hamdy Osama, Ain Shams University, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.32.0.0
+Toolchain Path:  F:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.14.1
+Assembler:       Armasm.exe V6.14.1
+Linker/Locator:  ArmLink.exe V6.14.1
+Library Manager: ArmAr.exe V6.14.1
+Hex Converter:   FromElf.exe V6.14.1
+CPU DLL:         SARMCM3.DLL V5.32.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.163.9.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+F:\„Ê«œ «·Ã«„⁄…\4th Mechatronics\Miscs\Graduation Project\03-LLCS\Driver Testing\ADC_Test\ADC_Test.uvprojx
+Project File Date:  12/12/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.14.1', folder: 'F:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+ADC_program.c(10): warning: In file included from...
+../ADC_Test\BIT_MATH.h(16): warning: no newline at end of file [-Wnewline-eof]
+ 
+ ^
+ADC_program.c(13): warning: In file included from...
+../ADC_Test\ADC_private.h(105): warning: no newline at end of file [-Wnewline-eof]
+ 
+ ^
+ADC_program.c(14): warning: In file included from...
+../ADC_Test\ADC_config.h(156): warning: no newline at end of file [-Wnewline-eof]
+         
+         ^
+ADC_program.c(21): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+           ADC_CCR &= ~(0x00030000);   //PRESCALER BITS (0,0)
+                   ~~ ^~~~~~~~~~~~~
+ADC_program.c(42): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+           ADC1_CR1 &= ~(0x03000000);   //RESOLUTION BITS of ADC1 (0,0)
+                    ~~ ^~~~~~~~~~~~~
+ADC_program.c(78): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+           ADC1_SMPR1 &= (~(0x5)<<(i*3)); 
+                      ~~  ~~~~~~^~~~~~~
+ADC_program.c(79): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+       ADC1_SMPR1 |= ((0x2)<<(i*3)); 
+                  ~~  ~~~~~^~~~~~~
+ADC_program.c(82): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+           ADC1_SMPR2 &= (~(0x5)<<(i*3)); 
+                      ~~  ~~~~~~^~~~~~~
+ADC_program.c(83): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+       ADC1_SMPR2 |= ((0x2)<<(i*3)); 
+                  ~~  ~~~~~^~~~~~~
+ADC_program.c(137): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+           ADC1_CR2 &= ~(0x00000800);  //Align Bit = 0
+                    ~~ ^~~~~~~~~~~~~
+ADC_program.c(153): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+           ADC1_CR1 &= ~(0x04000000);    //OVRIE BIT = 0
+                    ~~ ^~~~~~~~~~~~~
+ADC_program.c(164): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+           ADC1_CR1 &= ~(0x000000A0);   //JEOCIE= EOCIE= 0
+                    ~~ ^~~~~~~~~~~~~
+ADC_program.c(177): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+           ADC1_CR1 &= ~(0x00C00000);  //AWDEN= JAWDEN= 0
+                    ~~ ^~~~~~~~~~~~~
+ADC_program.c(178): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+           ADC1_CR1 &= ~(0x00000040);  //AWDIE= 0
+                    ~~ ^~~~~~~~~~~~~
+ADC_program.c(199): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+           ADC1_CR2 &= ~(0x30300000);  //EXTEN= JEXTEN= (0,0)
+                    ~~ ^~~~~~~~~~~~~
+ADC_program.c(222): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+           ADC1_CR2 &= ~(0x00000100); //DMA= 0
+                    ~~ ^~~~~~~~~~~~~
+ADC_program.c(238): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+       ADC1_CR1 &= ~(0x00001800);  //JDISCEN= DISCEN= 0
+                ~~ ^~~~~~~~~~~~~
+ADC_program.c(251): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+           ADC1_CR1 &= ~(0x00000400); //JAUTO= 0
+                    ~~ ^~~~~~~~~~~~~
+ADC_program.c(261): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+           ADC1_SQR1 &= ~(0x00F00000);   //Reset Scanned Channels #
+                     ~~ ^~~~~~~~~~~~~
+ADC_program.c(271): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+        ADC1_CR2 &= ~(0x00000003);   //ADON= CONT= 0
+                 ~~ ^~~~~~~~~~~~~
+ADC_program.c(279): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+        ADC1_SQR1 &= ~(0x00F00000);   
+                  ~~ ^~~~~~~~~~~~~
+ADC_program.c(281): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+        ADC1_SQR3 &= ~(0x0000001F); //Reset Sequence
+                  ~~ ^~~~~~~~~~~~~
+ADC_program.c(284): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+        ADC1_CR2 &= ~(0x00000002);   // CONT= 0
+                 ~~ ^~~~~~~~~~~~~
+ADC_program.c(294): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+        CLR_BIT(ADC1_SR,4); //Clear STRT
+        ^~~~~~~~~~~~~~~~~~
+../ADC_Test\BIT_MATH.h(10): note: expanded from macro 'CLR_BIT'
+#define CLR_BIT(VAR,BIT)          VAR &= ~(1 << (BIT)) 
+                                      ~~ ^~~~~~~~~~~~~
+ADC_program.c(295): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+        CLR_BIT(ADC1_SR,2); //Clear EOC
+        ^~~~~~~~~~~~~~~~~~
+../ADC_Test\BIT_MATH.h(10): note: expanded from macro 'CLR_BIT'
+#define CLR_BIT(VAR,BIT)          VAR &= ~(1 << (BIT)) 
+                                      ~~ ^~~~~~~~~~~~~
+ADC_program.c(297): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+        CLR_BIT(ADC1_CR2,0); //ADON= 0
+        ^~~~~~~~~~~~~~~~~~~
+../ADC_Test\BIT_MATH.h(10): note: expanded from macro 'CLR_BIT'
+#define CLR_BIT(VAR,BIT)          VAR &= ~(1 << (BIT)) 
+                                      ~~ ^~~~~~~~~~~~~
+ADC_program.c(299): warning: implicit conversion loses integer precision: 'volatile u32' (aka 'volatile unsigned long') to 'u16' (aka 'unsigned short') [-Wimplicit-int-conversion]
+        return ADC1_DR;
+        ~~~~~~ ^~~~~~~
+../ADC_Test\ADC_private.h(38): note: expanded from macro 'ADC1_DR'
+   #define ADC1_DR        *((volatile u32*)(ADC_BASE_ADDRESS+0x4C))
+                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ADC_program.c(307): warning: no newline at end of file [-Wnewline-eof]
+   
+   ^
+28 warnings generated.
+compiling ADC_program.c...
+linking...
+.\Objects\ADC_Test.axf: Error: L6218E: Undefined symbol main (referred from __rtentry2.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 1 error messages.
+".\Objects\ADC_Test.axf" - 1 Error(s), 28 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.15.0.pack
+                Keil.STM32F4xx_DFP.2.15.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 2.6.3
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  F:\Keil_Pack\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  F:\Keil_Pack\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+
+   * Component: Keil::Device:Startup:2.6.3
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f446xx.s
+      Source file:   MDK\Device\Source\ARM\STM32F446xx_OPT.s
+      Include file:  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+      Source file:   MDK\Device\Source\ARM\STM32F4xx_OTP.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
